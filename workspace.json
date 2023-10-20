@@ -5,7 +5,8 @@
     "@workspace": {
       "@calendar": true,
       "lnyf8k0bzwf9j4fa1cj": true,
-      "@workspace": true
+      "@workspace": true,
+      "lnyf8cqljxmzdjossc": true
     }
   },
   "nodes": [
@@ -26,8 +27,7 @@
       "Linked": {
         "Children": [
           "@calendar",
-          "lnyf8cqljxmzdjossc",
-          "lnyf94wpvdhpl9h4ez"
+          "lnyf8cqljxmzdjossc"
         ],
         "Components": []
       },
@@ -50,7 +50,9 @@
       "ID": "lnyf8cqljxmzdjossc",
       "Name": "Home",
       "Linked": {
-        "Children": [],
+        "Children": [
+          "lnyf94wpvdhpl9h4ez"
+        ],
         "Components": []
       },
       "Attrs": {},
@@ -103,7 +105,7 @@
         "Components": []
       },
       "Attrs": {},
-      "Parent": "@workspace"
+      "Parent": "lnyf8cqljxmzdjossc"
     }
   ],
   "settings": {}
