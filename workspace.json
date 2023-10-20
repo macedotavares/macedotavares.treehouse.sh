@@ -58,23 +58,40 @@
       "ID": "lnyf8k0bzwf9j4fa1cj",
       "Name": "Testing",
       "Linked": {
-        "Children": [
-          "lnyf8lsurkxoh76x31m"
-        ],
-        "Components": []
+        "Children": [],
+        "Components": [],
+        "Fields": [
+          "lnyf8ujyzernzjxwc9q"
+        ]
       },
       "Attrs": {},
       "Parent": "@calendar"
     },
     {
-      "ID": "lnyf8lsurkxoh76x31m",
+      "ID": "lnyf8ujyzernzjxwc9q",
       "Name": "autor:isto",
+      "Value": "isto",
+      "Linked": {
+        "Children": [],
+        "Components": [
+          "lnyf8ujyrt33q70ief"
+        ]
+      },
+      "Attrs": {},
+      "Parent": "lnyf8k0bzwf9j4fa1cj",
+      "Rel": "Fields"
+    },
+    {
+      "ID": "lnyf8ujyrt33q70ief",
+      "Name": "treehouse.TextField",
+      "Value": {},
       "Linked": {
         "Children": [],
         "Components": []
       },
       "Attrs": {},
-      "Parent": "lnyf8k0bzwf9j4fa1cj"
+      "Parent": "lnyf8ujyzernzjxwc9q",
+      "Rel": "Components"
     }
   ],
   "settings": {}
