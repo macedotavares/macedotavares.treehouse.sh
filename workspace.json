@@ -51,7 +51,8 @@
       "Name": "Home",
       "Linked": {
         "Children": [
-          "lnyf94wpvdhpl9h4ez"
+          "lnyf94wpvdhpl9h4ez",
+          "lnyfbcufjjgbwqne9n9"
         ],
         "Components": []
       },
@@ -99,12 +100,24 @@
     },
     {
       "ID": "lnyf94wpvdhpl9h4ez",
-      "Name": "",
+      "Name": "reference",
       "Linked": {
         "Children": [],
         "Components": []
       },
       "Attrs": {},
+      "Parent": "lnyf8cqljxmzdjossc"
+    },
+    {
+      "ID": "lnyfbcufjjgbwqne9n9",
+      "Name": "",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {
+        "refTo": "lnyf94wpvdhpl9h4ez"
+      },
       "Parent": "lnyf8cqljxmzdjossc"
     }
   ],
