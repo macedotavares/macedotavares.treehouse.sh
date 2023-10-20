@@ -4,7 +4,8 @@
   "expanded": {
     "@workspace": {
       "@calendar": true,
-      "lnyf8k0bzwf9j4fa1cj": true
+      "lnyf8k0bzwf9j4fa1cj": true,
+      "@workspace": true
     }
   },
   "nodes": [
@@ -25,7 +26,8 @@
       "Linked": {
         "Children": [
           "@calendar",
-          "lnyf8cqljxmzdjossc"
+          "lnyf8cqljxmzdjossc",
+          "lnyf94wpvdhpl9h4ez"
         ],
         "Components": []
       },
@@ -69,8 +71,8 @@
     },
     {
       "ID": "lnyf8ujyzernzjxwc9q",
-      "Name": "autor:isto",
-      "Value": "isto",
+      "Name": "autor",
+      "Value": "manuel",
       "Linked": {
         "Children": [],
         "Components": [
@@ -92,6 +94,16 @@
       "Attrs": {},
       "Parent": "lnyf8ujyzernzjxwc9q",
       "Rel": "Components"
+    },
+    {
+      "ID": "lnyf94wpvdhpl9h4ez",
+      "Name": "",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@workspace"
     }
   ],
   "settings": {}
