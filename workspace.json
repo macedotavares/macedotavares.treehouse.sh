@@ -2,7 +2,10 @@
   "version": 1,
   "lastopen": "@workspace",
   "expanded": {
-    "@workspace": {}
+    "@workspace": {
+      "@calendar": true,
+      "lnyf8k0bzwf9j4fa1cj": true
+    }
   },
   "nodes": [
     {
@@ -33,7 +36,9 @@
       "ID": "@calendar",
       "Name": "Calendar",
       "Linked": {
-        "Children": [],
+        "Children": [
+          "lnyf8k0bzwf9j4fa1cj"
+        ],
         "Components": []
       },
       "Attrs": {},
@@ -48,6 +53,28 @@
       },
       "Attrs": {},
       "Parent": "@workspace"
+    },
+    {
+      "ID": "lnyf8k0bzwf9j4fa1cj",
+      "Name": "Testing",
+      "Linked": {
+        "Children": [
+          "lnyf8lsurkxoh76x31m"
+        ],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@calendar"
+    },
+    {
+      "ID": "lnyf8lsurkxoh76x31m",
+      "Name": "autor:isto",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "lnyf8k0bzwf9j4fa1cj"
     }
   ],
   "settings": {}
