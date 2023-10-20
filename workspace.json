@@ -6,7 +6,9 @@
       "@calendar": true,
       "lnyf8k0bzwf9j4fa1cj": true,
       "@workspace": true,
-      "lnyf8cqljxmzdjossc": true
+      "lnyf8cqljxmzdjossc": true,
+      "lnyfbcufjjgbwqne9n9": false,
+      "lnyf94wpvdhpl9h4ez": false
     }
   },
   "nodes": [
@@ -100,7 +102,7 @@
     },
     {
       "ID": "lnyf94wpvdhpl9h4ez",
-      "Name": "reference",
+      "Name": "referencia",
       "Linked": {
         "Children": [],
         "Components": []
