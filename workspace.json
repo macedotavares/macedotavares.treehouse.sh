@@ -50,7 +50,8 @@
         "Children": [
           "@calendar",
           "lnyf8cqljxmzdjossc",
-          "ltpqwt2mlvauyeh2vj"
+          "ltpqwt2mlvauyeh2vj",
+          "ltpr01y7eogxiccdmf"
         ],
         "Components": []
       },
@@ -1259,7 +1260,7 @@
     },
     {
       "ID": "ltpqwt2mlvauyeh2vj",
-      "Name": "",
+      "Name": "Test node",
       "Linked": {
         "Children": [],
         "Components": []
@@ -1569,6 +1570,16 @@
       },
       "Attrs": {},
       "Parent": "lnyfbcufjjgbwqne9n9"
+    },
+    {
+      "ID": "ltpr01y7eogxiccdmf",
+      "Name": "",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@workspace"
     }
   ],
   "settings": {}
