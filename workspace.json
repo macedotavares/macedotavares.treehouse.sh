@@ -30,7 +30,9 @@
     "lnyf8cqljxmzdjossc": {
       "lnyf94wpvdhpl9h4ez": false
     },
-    "ltpqwt2mlvauyeh2vj": {}
+    "ltpqwt2mlvauyeh2vj": {
+      "ltpqwt2mlvauyeh2vj": true
+    }
   },
   "nodes": [
     {
@@ -1264,12 +1266,14 @@
       "ID": "ltpqwt2mlvauyeh2vj",
       "Name": "Test node",
       "Linked": {
-        "Children": [],
+        "Children": [
+          "ltpr0zbxj4k1aaz9ckd"
+        ],
         "Components": []
       },
       "Attrs": {
         "refTo": "ltpquzpppjjxvo1hxkq",
-        "view": "table"
+        "view": "list"
       },
       "Parent": "@workspace"
     },
@@ -1594,6 +1598,16 @@
         "refTo": "ltpqwt2mlvauyeh2vj"
       },
       "Parent": "@workspace"
+    },
+    {
+      "ID": "ltpr0zbxj4k1aaz9ckd",
+      "Name": "DASFASDFSADF",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "ltpqwt2mlvauyeh2vj"
     }
   ],
   "settings": {}
