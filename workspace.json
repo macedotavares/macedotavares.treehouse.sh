@@ -32,7 +32,8 @@
       "ltpqwt2mlvauyeh2vj": true
     },
     "ltpr0fhv5pwq1g7si4": {
-      "ltpr0fhv5pwq1g7si4": true
+      "ltpr0fhv5pwq1g7si4": true,
+      "ltpr1asud5j64bwh7v5": false
     }
   },
   "nodes": [
@@ -1615,7 +1616,8 @@
           "ltpr1dnttia5ckvizq",
           "lwe0d2c811irfz5ieat",
           "lwe0d2jcuyzl132mv6",
-          "lwe0d2nd3w16v55gq2s"
+          "lwe0d2nd3w16v55gq2s",
+          "lwe0d5kx5bzrz1ytqyn"
         ],
         "Components": []
       },
@@ -1749,7 +1751,9 @@
       "Name": "dsgffdsgsdf",
       "Linked": {
         "Children": [],
-        "Components": []
+        "Components": [
+          "lwe0dg9nv1q6m66cf3e"
+        ]
       },
       "Attrs": {},
       "Parent": "ltpqwt2mlvauyeh2vj"
@@ -1863,6 +1867,30 @@
       },
       "Attrs": {},
       "Parent": "ltpr0fhv5pwq1g7si4"
+    },
+    {
+      "ID": "lwe0d5kx5bzrz1ytqyn",
+      "Name": "",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "ltpr0fhv5pwq1g7si4"
+    },
+    {
+      "ID": "lwe0dg9nv1q6m66cf3e",
+      "Name": "treehouse.Tag",
+      "Value": {
+        "name": "teste"
+      },
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "ltpr1asud5j64bwh7v5",
+      "Rel": "Components"
     }
   ],
   "settings": {}
